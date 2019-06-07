@@ -2,8 +2,9 @@
 # coding: utf-8
 
 """ Script Summary
- A Python script that takes in parameters such as session, window size, batch file name, 
- snapshot directory and variant positions to produce batch scripts in an automated manner. 
+A Python script that takes in parameters such as session, window size, batch file name, 
+snapshot directory and variant positions,etc. to produce a unique batch scripts and automate 
+the image generation process. 
 """
 
 # In[2]:
@@ -35,6 +36,9 @@ def main():
     
     # Checks if file with Variant Positions Exists
     file_exists(args.variantPos, exit = True)
+
+    #Checks if Snapshot directory exists and creates one if necessary
+    check_dir(args.snapshotDir)
 
     # Creates pandas data fram object
     df = pd.read_csv(args.variantPos)
@@ -121,6 +125,15 @@ def print_files_used(outputFile, args):
                 data = str.split("\"")
                 outputFile.write(data[1] + "\n")
         outputFile.write("\n")
+
+def check_dir(directory):
+    """This function checks if the snapshot directory exists and creates one if necessary"""
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+        print('Snapshot directory was created')
+    else:
+        print("Snapshot directory already exists")
+
     
 
 
