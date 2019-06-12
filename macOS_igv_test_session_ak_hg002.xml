@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="hg19" hasGeneTrack="true" hasSequenceTrack="true" locus="chr8:73181730-73182291" nextAutoscaleGroup="2" path="/Volumes/giab/data/igv_sessions/AndreySession.xml" version="8">
+    <Resources>
+        <Resource path="/Volumes/giab/data/small_variants/HG002_GRCh37_GIAB_highconf_CG-IllFB-IllGATKHC-Ion-10X-SOLID_CHROM1-22_v.3.3.2_highconf_triophased.vcf.gz"/>
+        <Resource path="/Volumes/giab/data/alignment/AshkenazimTrio/PacBio/PacBio_CCS_15kb/HG002.PacBio.15kbCCS.Q20.hs37d5.pbmm2.MAPQ60.HP10xtrioRTG.bam"/>
+        <Resource path="/Volumes/giab/data/alignment/AshkenazimTrio/NA24385.GRCh37.phased_possorted_bam.bam"/>
+        <Resource path="/Volumes/giab/data/alignment/AshkenazimTrio/10XGenomics/NA24385_phased_possorted_bam.bam"/>
+        <Resource path="/Volumes/giab/data/alignment/AshkenazimTrio/Illumina/IlluminaMatePairs/HG002.mate_pair.sorted.bam"/>
+        <Resource path="/Volumes/giab/data/alignment/AshkenazimTrio/Illumina/NIST_Illumina_2x250bps/HG002.hs37d5.2x250.bam"/>
+    </Resources>
+    <Panel height="40" name="DataPanel" width="1581">
+        <Track clazz="org.broad.igv.variant.VariantTrack" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="1998000" fontSize="10" id="/Volumes/giab/data/small_variants/HG002_GRCh37_GIAB_highconf_CG-IllFB-IllGATKHC-Ion-10X-SOLID_CHROM1-22_v.3.3.2_highconf_triophased.vcf.gz" name="HG002_GRCh37_GIAB_highconf_CG-IllFB-IllGATKHC-Ion-10X-SOLID_CHROM1-22_v.3.3.2_highconf_triophased.vcf.gz" siteColorMode="ALLELE_FREQUENCY" squishedHeight="1" visible="true"/>
+    </Panel>
+    <Panel height="1514" name="Panel1559579238193" width="1581">
+        <Track autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" color="175,175,175" colorScale="ContinuousColorScale;0.0;100.0;255,255,255;175,175,175" fontSize="10" id="/Volumes/giab/data/alignment/AshkenazimTrio/Illumina/NIST_Illumina_2x250bps/HG002.hs37d5.2x250.bam_coverage" name="HG002.hs37d5.2x250.bam Coverage" snpThreshold="0.2" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="100.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track clazz="org.broad.igv.sam.SpliceJunctionTrack" fontSize="10" height="60" id="/Volumes/giab/data/alignment/AshkenazimTrio/Illumina/NIST_Illumina_2x250bps/HG002.hs37d5.2x250.bam_junctions" name="HG002.hs37d5.2x250.bam Junctions" visible="false"/>
+        <Track clazz="org.broad.igv.sam.AlignmentTrack" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="10" id="/Volumes/giab/data/alignment/AshkenazimTrio/Illumina/NIST_Illumina_2x250bps/HG002.hs37d5.2x250.bam" name="HG002.hs37d5.2x250.bam" visible="true">
+            <RenderOptions/>
+        </Track>
+    </Panel>
+    <Panel height="982" name="Panel1559579270959" width="1581">
+        <Track autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" color="175,175,175" colorScale="ContinuousColorScale;0.0;64.0;255,255,255;175,175,175" fontSize="10" id="/Volumes/giab/data/alignment/AshkenazimTrio/10XGenomics/NA24385_phased_possorted_bam.bam_coverage" name="NA24385_phased_possorted_bam.bam Coverage" snpThreshold="0.2" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="64.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track clazz="org.broad.igv.sam.SpliceJunctionTrack" fontSize="10" height="60" id="/Volumes/giab/data/alignment/AshkenazimTrio/10XGenomics/NA24385_phased_possorted_bam.bam_junctions" name="NA24385_phased_possorted_bam.bam Junctions" visible="false"/>
+        <Track clazz="org.broad.igv.sam.AlignmentTrack" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="10" id="/Volumes/giab/data/alignment/AshkenazimTrio/10XGenomics/NA24385_phased_possorted_bam.bam" name="NA24385_phased_possorted_bam.bam" visible="true">
+            <RenderOptions/>
+        </Track>
+    </Panel>
+    <Panel height="604" name="Panel1559579298237" width="1581">
+        <Track autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" color="175,175,175" colorScale="ContinuousColorScale;0.0;25.0;255,255,255;175,175,175" fontSize="10" id="/Volumes/giab/data/alignment/AshkenazimTrio/PacBio/PacBio_CCS_15kb/HG002.PacBio.15kbCCS.Q20.hs37d5.pbmm2.MAPQ60.HP10xtrioRTG.bam_coverage" name="HG002.PacBio.15kbCCS.Q20.hs37d5.pbmm2.MAPQ60.HP10xtrioRTG.bam Coverage" snpThreshold="0.2" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="24.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track clazz="org.broad.igv.sam.SpliceJunctionTrack" fontSize="10" height="60" id="/Volumes/giab/data/alignment/AshkenazimTrio/PacBio/PacBio_CCS_15kb/HG002.PacBio.15kbCCS.Q20.hs37d5.pbmm2.MAPQ60.HP10xtrioRTG.bam_junctions" name="HG002.PacBio.15kbCCS.Q20.hs37d5.pbmm2.MAPQ60.HP10xtrioRTG.bam Junctions" visible="false"/>
+        <Track clazz="org.broad.igv.sam.AlignmentTrack" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="10" id="/Volumes/giab/data/alignment/AshkenazimTrio/PacBio/PacBio_CCS_15kb/HG002.PacBio.15kbCCS.Q20.hs37d5.pbmm2.MAPQ60.HP10xtrioRTG.bam" name="HG002.PacBio.15kbCCS.Q20.hs37d5.pbmm2.MAPQ60.HP10xtrioRTG.bam" visible="true">
+            <RenderOptions/>
+        </Track>
+    </Panel>
+    <Panel height="3838" name="Panel1559579331521" width="1581">
+        <Track autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" color="175,175,175" colorScale="ContinuousColorScale;0.0;72.0;255,255,255;175,175,175" fontSize="10" id="/Volumes/giab/data/alignment/AshkenazimTrio/NA24385.GRCh37.phased_possorted_bam.bam_coverage" name="NA24385.GRCh37.phased_possorted_bam.bam Coverage" snpThreshold="0.2" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="72.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track clazz="org.broad.igv.sam.SpliceJunctionTrack" fontSize="10" height="60" id="/Volumes/giab/data/alignment/AshkenazimTrio/NA24385.GRCh37.phased_possorted_bam.bam_junctions" name="NA24385.GRCh37.phased_possorted_bam.bam Junctions" visible="false"/>
+        <Track clazz="org.broad.igv.sam.AlignmentTrack" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="10" id="/Volumes/giab/data/alignment/AshkenazimTrio/NA24385.GRCh37.phased_possorted_bam.bam" name="NA24385.GRCh37.phased_possorted_bam.bam" visible="true">
+            <RenderOptions/>
+        </Track>
+    </Panel>
+    <Panel height="576" name="Panel1559579352853" width="1581">
+        <Track autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" color="175,175,175" colorScale="ContinuousColorScale;0.0;20.0;255,255,255;175,175,175" fontSize="10" id="/Volumes/giab/data/alignment/AshkenazimTrio/Illumina/IlluminaMatePairs/HG002.mate_pair.sorted.bam_coverage" name="HG002.mate_pair.sorted.bam Coverage" snpThreshold="0.2" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="20.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track clazz="org.broad.igv.sam.SpliceJunctionTrack" fontSize="10" height="60" id="/Volumes/giab/data/alignment/AshkenazimTrio/Illumina/IlluminaMatePairs/HG002.mate_pair.sorted.bam_junctions" name="HG002.mate_pair.sorted.bam Junctions" visible="false"/>
+        <Track clazz="org.broad.igv.sam.AlignmentTrack" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="10" id="/Volumes/giab/data/alignment/AshkenazimTrio/Illumina/IlluminaMatePairs/HG002.mate_pair.sorted.bam" name="HG002.mate_pair.sorted.bam" visible="true">
+            <RenderOptions/>
+        </Track>
+    </Panel>
+    <Panel height="54" name="FeaturePanel" width="1581">
+        <Track clazz="org.broad.igv.track.SequenceTrack" fontSize="10" id="Reference sequence" name="Reference sequence" visible="true"/>
+        <Track clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" colorScale="ContinuousColorScale;0.0;423.0;255,255,255;0,0,178" fontSize="10" height="35" id="hg19_genes" name="RefSeq Genes" visible="true"/>
+    </Panel>
+    <PanelLayout dividerFractions="0.024891774891774892,0.21212121212121213,0.39935064935064934,0.5865800865800865,0.7738095238095238,0.961038961038961"/>
+    <HiddenAttributes>
+        <Attribute name="DATA FILE"/>
+        <Attribute name="DATA TYPE"/>
+        <Attribute name="NAME"/>
+    </HiddenAttributes>
+</Session>
