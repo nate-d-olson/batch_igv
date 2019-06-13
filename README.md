@@ -1,6 +1,8 @@
 # batch_igv
 Automating image generation in IGV by generating batch script.
 
+The script uses external packages, therefore, before attempting to use the script one needs to verify that the following libraries are installed: Pandas, ArgParse, sys and os
+
 positional arguments:
   1. igvSession   Name of IGV Session
   2. windowSize   Size of Window
@@ -33,4 +35,4 @@ Example with optional parameter:
 python batch_igv.py Y:\data\igv_sessions\AndreySession.xml 400 VariantPositionBatch Y:\data\SnapShots C:\Users\ank22\Documents\hg002_deepvar_manual_currate.csv C:\IGV_2.5.0\igv.bat --runScript
 
 Example for macOS:
-python batch_igv.py /Users/sns50/Downloads/macOS_igvsession.xml 400 NewBatchFile /Users/sns50/Documents/SnapShots /Users/sns50/Downloads/hg002_deepvar_manual_currate.csv /Users/sns50/Downloads/IGV_2.5.3/igv.bat --runScript
+######python batch_igv.py /Users/sns50/Downloads/macOS_igvsession.xml 400 NewBatchFile /Users/sns50/Documents/SnapShots ######/Users/sns50/Downloads/hg002_deepvar_manual_currate.csv /Users/sns50/Downloads/IGV_2.5.3/igv.bat --runScript
