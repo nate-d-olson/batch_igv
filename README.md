@@ -6,6 +6,7 @@ The script uses external packages, therefore, before attempting to use the scrip
   2. ArgParse
   3. os
   4. sys
+  5. time
 
 positional arguments:
   1. igvSession   Name of IGV Session
