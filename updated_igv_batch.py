@@ -3,7 +3,7 @@
 
 """ Script Summary
 A Python script that takes in parameters such as session, window size, batch file name, 
-snapshot directory and variant positions,etc. to produce a unique batch scripts and automate 
+snapshot directory and variant positions,etc. to produce a unique batch script and automate 
 the image generation process. 
 
 Andrey Kuzin
